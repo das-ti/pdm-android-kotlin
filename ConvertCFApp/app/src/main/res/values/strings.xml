@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Conversor de Temperatura</string>
+    <string name="titulo_app">Conversor °C → °F</string>
+    <string name="hint_celsius">Digite a temperatura em Celsius</string>
+    <string name="converter">Converter</string>
+    <string name="resultado_padrao">Resultado da conversão</string>
+    <string name="resultado_fahrenheit">%s °C equivale a %s °F</string>
+    <string name="erro_campo_vazio">Digite uma temperatura!</string>
+    <string name="erro_valor_invalido">Digite apenas números válidos!</string>
+</resources>
