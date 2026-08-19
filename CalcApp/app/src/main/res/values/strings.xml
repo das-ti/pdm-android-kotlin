@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CalcApp</string>
+    <string name="calcapp">CalcApp</string>
+    <string name="resultado_soma">A Soma é: %s</string>
+    <string name="resultado_subtracao">A Subtração é: %s</string>
+    <string name="resultado_multiplicacao">A Multiplicação é: %s</string>
+    <string name="resultado_divisao">A Divisão é: %s</string>
+    <string name="calculo_realizado">Cálculo Realizado!</string>
+    <string name="digite_um_valor">Digite um valor:</string>
+</resources>
