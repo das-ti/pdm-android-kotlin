@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/titulo_ohm"
+        android:textColor="#B62A2A"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_tensao"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:hint="@string/hint_tensao"
+        android:inputType="numberDecimal|numberSigned"
+        android:importantForAutofill="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txv_titulo" />
+
+    <EditText
+        android:id="@+id/edt_resistencia"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hint_resistencia"
+        android:inputType="numberDecimal|numberSigned"
+        android:importantForAutofill="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_tensao" />
+
+    <EditText
+        android:id="@+id/edt_corrente"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hint_corrente"
+        android:inputType="numberDecimal|numberSigned"
+        android:importantForAutofill="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_resistencia" />
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/calcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_corrente" />
+
+    <TextView
+        android:id="@+id/txv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/resultado_padrao_ohm"
+        android:textSize="20sp"
+        android:textIsSelectable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_calcular" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
