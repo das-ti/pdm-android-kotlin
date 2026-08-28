@@ -23,14 +23,16 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         val edtNomeAluno = findViewById<EditText>(R.id.edt_nome_aluno)
         val btnSalvar = findViewById<Button>(R.id.btn_salvar)
         val fabAvancar = findViewById<FloatingActionButton>(R.id.fab_avancar)
-
+        
+        var nomeSalvo = ""
+        
         btnSalvar.setOnClickListener {
             val nomeAluno = edtNomeAluno.text.toString()
 
             nomeSalvo = nomeAluno
 
             edtNomeAluno.text.clear()
-            Toast.makeText(this, "Nome do aluno salvo com sucesso!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Nome do aluno $nomeAluno salvo.", Toast.LENGTH_SHORT).show()
             Toast.makeText(this, "Agora realize a matrícula!", Toast.LENGTH_SHORT).show()
         }
         fabAvancar.setOnClickListener {
