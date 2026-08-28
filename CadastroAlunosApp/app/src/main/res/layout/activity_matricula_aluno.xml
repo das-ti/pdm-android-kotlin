@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txv_nome_aluno"
+        android:id="@+id/tv_nome_aluno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="157dp"
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txv_tela_matricula" />
 
     <TextView
-        android:id="@+id/txv_matricula_aluno"
+        android:id="@+id/txv_numero_matricula"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="157dp"
@@ -43,7 +43,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txv_nome_aluno" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_nome_aluno" />
 
     <Button
         android:id="@+id/btn_matricular"
