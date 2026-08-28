@@ -1,11 +1,9 @@
 package com.mylabsystems.cadastrolivros
 
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class DetalhesLivro : AppCompatActivity(R.layout.activity_detalhes_livro) {

@@ -10,7 +10,7 @@
     <EditText
         android:id="@+id/edt_titulo_livro"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginStart="110dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="91dp"
@@ -38,7 +38,7 @@
     <EditText
         android:id="@+id/edt_autor_livro"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginStart="110dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="91dp"
