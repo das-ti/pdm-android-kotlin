@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lei de Ohm</string>
+    <string name="titulo_ohm">1ª Lei de Ohm: V = R × I</string>
+    <string name="hint_tensao">Tensão (V) em Volts</string>
+    <string name="hint_resistencia">Resistência (R) em Ohms</string>
+    <string name="hint_corrente">Corrente (I) em Amperes</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado_padrao_ohm">Resultado</string>
+    <string name="resultado_corrente">Corrente: %s A</string>
+    <string name="resultado_resistencia">Resistência: %s Ω</string>
+    <string name="resultado_tensao">Tensão: %s V</string>
+    <string name="erro_poucos_campos">Preencha exatamente dois campos!</string>
+    <string name="erro_todos_campos">Preencha apenas dois campos, deixe um em branco!</string>
+    <string name="erro_valor_invalido_ohm">Digite apenas números válidos!</string>
+    <string name="erro_divisao_zero">Não é possível calcular: divisão por zero!</string>
+</resources>
