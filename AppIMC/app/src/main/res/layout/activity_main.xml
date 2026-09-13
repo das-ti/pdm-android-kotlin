@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+
+    <TextView
+        android:id="@+id/txv_titulo_tela_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="103dp"
+        android:contentDescription="Título do app: Calcule seu IMC"
+        android:text="Calcule seu IMC"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_peso"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="131dp"
+        android:width="150dp"
+        android:ems="10"
+        android:hint="Peso: 00.00"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_titulo_tela_resultado" />
+
+    <EditText
+        android:id="@+id/edt_altura"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="131dp"
+        android:width="150dp"
+        android:ems="10"
+        android:hint="Altura: 0.00"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_peso" />
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="131dp"
+        android:width="150dp"
+        android:contentDescription="Clique para calcular seu IMC."
+        android:text="Calcular"
+        android:textColorLink="#3D62BB"
+        android:textSize="20sp"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_altura" />
+</androidx.constraintlayout.widget.ConstraintLayout>
