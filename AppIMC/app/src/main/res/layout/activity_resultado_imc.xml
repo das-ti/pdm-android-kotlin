@@ -58,7 +58,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="120dp"
         android:contentDescription="Mensagem sobre seu peso ideal."
-        android:text="Mensagem"
+        android:text="Mensagem IMC"
         android:textSize="20sp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
