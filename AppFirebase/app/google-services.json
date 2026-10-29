@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "786937071682",
+    "project_id": "appkotlin-9418b",
+    "storage_bucket": "appkotlin-9418b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786937071682:android:ceb2e5e347cbd2f4d185db",
+        "android_client_info": {
+          "package_name": "br.edu.fatecpg.appfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcd4Vx6cmLP1baiKST8SIjR0vyYhuTlNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786937071682:android:a55a82131b6cefe4d185db",
+        "android_client_info": {
+          "package_name": "br.edu.fatecpg.appkotlinfatec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcd4Vx6cmLP1baiKST8SIjR0vyYhuTlNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
