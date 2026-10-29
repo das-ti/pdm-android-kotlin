@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cor de fundo da caixa de texto (Branco) -->
+    <solid android:color="#FFFFFF" />
+
+    <!-- Arredondamento das bordas -->
+    <corners android:radius="24dp" />
+
+    <!-- Espaçamento interno opcional -->
+    <padding
+        android:bottom="8dp"
+        android:left="16dp"
+        android:right="16dp"
+        android:top="8dp" />
+
+</selector>
