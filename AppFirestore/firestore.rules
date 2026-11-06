@@ -1,0 +1,15 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Atividade acadêmica: qualquer cliente pode ler e cadastrar produtos.
+    // Os dados precisam ter nome, categoria e preço válidos.
+    match /Produtos/{produtoId} {
+      allow read: if true;
+      allow create: if request.resource.data.keys().hasOnly(['nome', 'categoria', 'preco'])
+                    && request.resource.data.nome is string && request.resource.data.nome.size() > 0
+                    && request.resource.data.categoria is string && request.resource.data.categoria.size() > 0
+                    && request.resource.data.preco is number && request.resource.data.preco >= 0;
+    }
+  }
+}

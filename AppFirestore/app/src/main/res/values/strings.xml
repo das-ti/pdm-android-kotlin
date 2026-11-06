@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AppFirestore</string>
+
+    <string name="titulo_cadastro">Cadastro de Produto</string>
+    <string name="titulo_lista">Produtos</string>
+
+    <string name="hint_nome">Nome</string>
+    <string name="hint_categoria">Categoria</string>
+    <string name="hint_preco">Preço</string>
+
+    <string name="btn_salvar">Salvar</string>
+    <string name="btn_ver_produtos">Ver produtos</string>
+
+    <string name="erro_campo_obrigatorio">Campo obrigatório</string>
+    <string name="erro_preco_invalido">Informe um preço válido</string>
+
+    <string name="msg_produto_salvo">Produto salvo com sucesso!</string>
+    <string name="msg_erro_salvar">Erro ao salvar: %1$s</string>
+    <string name="msg_erro_carregar">Erro ao carregar produtos: %1$s</string>
+    <string name="msg_lista_vazia">Nenhum produto cadastrado.</string>
+</resources>
